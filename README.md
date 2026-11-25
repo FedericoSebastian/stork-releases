@@ -71,6 +71,18 @@ agent is left waiting.
 
 ---
 
+<div align="center">
+
+## Let's talk
+
+**Found a bug, got an idea or a question?** Reach out wherever suits you.
+
+[![sevenstork.com](https://img.shields.io/badge/sevenstork.com-4F7942?style=for-the-badge&logo=safari&logoColor=white)](https://sevenstork.com) [![Email](https://img.shields.io/badge/federico.fernandez@sevenstork.com-4F7942?style=for-the-badge&logo=maildotru&logoColor=white)](mailto:federico.fernandez@sevenstork.com) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/federico-sebastian-fern%C3%A1ndez-aguiar-982293134/) [![Issues](https://img.shields.io/badge/Reportar%20un%20error-24292F?style=for-the-badge&logo=github&logoColor=white)](https://github.com/FedericoSebastian/stork-releases/issues)
+
+</div>
+
+---
+
 <a id="espanol"></a>
 
 # Stork (Español)
@@ -145,10 +157,9 @@ si un agente se queda esperando.
 
 <div align="center">
 
-## Hablemos · Let's talk
+## Hablemos
 
 **¿Un error, una idea o una pregunta?** Escribime por donde te quede cómodo.
-**Found a bug, got an idea or a question?** Reach out wherever suits you.
 
 [![sevenstork.com](https://img.shields.io/badge/sevenstork.com-4F7942?style=for-the-badge&logo=safari&logoColor=white)](https://sevenstork.com) [![Email](https://img.shields.io/badge/federico.fernandez@sevenstork.com-4F7942?style=for-the-badge&logo=maildotru&logoColor=white)](mailto:federico.fernandez@sevenstork.com) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/federico-sebastian-fern%C3%A1ndez-aguiar-982293134/) [![Issues](https://img.shields.io/badge/Reportar%20un%20error-24292F?style=for-the-badge&logo=github&logoColor=white)](https://github.com/FedericoSebastian/stork-releases/issues)
 
