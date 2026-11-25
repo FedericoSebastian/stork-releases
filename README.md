@@ -57,15 +57,6 @@ live separately in `~/.stork` and aren't touched. Older versions stay forever on
 | Buttons with your own prompts for repeated tasks | [Actions and skills](https://sevenstork.com/apps/stork/en/acciones) |
 | Keyboard shortcuts | [Shortcuts and search](https://sevenstork.com/apps/stork/en/atajos) |
 
-## Contact
-
-Bugs, ideas or questions — whatever suits you:
-
-- Web — [sevenstork.com](https://sevenstork.com)
-- Email — [federico.fernandez@sevenstork.com](mailto:federico.fernandez@sevenstork.com)
-- LinkedIn — [linkedin.com/in/federico-sebastian-fernández-aguiar](https://www.linkedin.com/in/federico-sebastian-fern%C3%A1ndez-aguiar-982293134/)
-- [Report a bug](https://github.com/FedericoSebastian/stork-releases/issues)
-
 ## Terms
 
 Stork is free and provided "as is", with no warranty: the agent runs commands and edits files on
@@ -138,15 +129,6 @@ la [lista de releases](https://github.com/FedericoSebastian/stork-releases/relea
 | Botones con tus propios prompts para tareas repetidas | [Acciones y skills](https://sevenstork.com/apps/stork/es/acciones) |
 | Atajos de teclado | [Atajos y búsqueda](https://sevenstork.com/apps/stork/es/atajos) |
 
-## Contacto
-
-Errores, ideas o preguntas — por donde te quede cómodo:
-
-- Web — [sevenstork.com](https://sevenstork.com)
-- Mail — [federico.fernandez@sevenstork.com](mailto:federico.fernandez@sevenstork.com)
-- LinkedIn — [linkedin.com/in/federico-sebastian-fernández-aguiar](https://www.linkedin.com/in/federico-sebastian-fern%C3%A1ndez-aguiar-982293134/)
-- [Reportar un error](https://github.com/FedericoSebastian/stork-releases/issues)
-
 ## Términos
 
 Stork es gratis y se entrega "tal cual", sin garantía: el agente corre comandos y edita archivos en
@@ -158,3 +140,19 @@ tu máquina, y vos sos responsable de revisar lo que aprobás. El texto completo
 Está la página de [Problemas comunes](https://sevenstork.com/apps/stork/es/problemas): qué hacer si
 Stork no encuentra `claude`, si una rama está ocupada por otra carpeta, si un puerto quedó tomado o
 si un agente se queda esperando.
+
+---
+
+<div align="center">
+
+## Hablemos · Let's talk
+
+**¿Un error, una idea o una pregunta?** Escribime por donde te quede cómodo.<br>
+**Found a bug, got an idea or a question?** Reach out wherever suits you.
+
+[![sevenstork.com](https://img.shields.io/badge/sevenstork.com-4F7942?style=for-the-badge&logo=safari&logoColor=white)](https://sevenstork.com)
+[![Email](https://img.shields.io/badge/federico.fernandez@sevenstork.com-4F7942?style=for-the-badge&logo=maildotru&logoColor=white)](mailto:federico.fernandez@sevenstork.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/federico-sebastian-fern%C3%A1ndez-aguiar-982293134/)
+[![Issues](https://img.shields.io/badge/Reportar%20un%20error-24292F?style=for-the-badge&logo=github&logoColor=white)](https://github.com/FedericoSebastian/stork-releases/issues)
+
+</div>
