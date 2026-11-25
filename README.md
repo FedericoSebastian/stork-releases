@@ -57,6 +57,21 @@ live separately in `~/.stork` and aren't touched. Older versions stay forever on
 | Buttons with your own prompts for repeated tasks | [Actions and skills](https://sevenstork.com/apps/stork/en/acciones) |
 | Keyboard shortcuts | [Shortcuts and search](https://sevenstork.com/apps/stork/en/atajos) |
 
+## Contact
+
+Bugs, ideas or questions — whatever suits you:
+
+- Web — [sevenstork.com](https://sevenstork.com)
+- Email — [federico.fernandez@sevenstork.com](mailto:federico.fernandez@sevenstork.com)
+- LinkedIn — [linkedin.com/in/federico-sebastian-fernández-aguiar](https://www.linkedin.com/in/federico-sebastian-fern%C3%A1ndez-aguiar-982293134/)
+- [Report a bug](https://github.com/FedericoSebastian/stork-releases/issues)
+
+## Terms
+
+Stork is free and provided "as is", with no warranty: the agent runs commands and edits files on
+your machine, and you're responsible for reviewing what you approve. The full text is in
+[TERMS.md](TERMS.md).
+
 ## If something goes wrong
 
 There's a [Common problems](https://sevenstork.com/apps/stork/en/problemas) page: what to do when
@@ -122,6 +137,21 @@ la [lista de releases](https://github.com/FedericoSebastian/stork-releases/relea
 | Avisos cuando un agente te necesita, en el Dock y en la barra de menú | [Avisos, límites y uso](https://sevenstork.com/apps/stork/es/avisos) |
 | Botones con tus propios prompts para tareas repetidas | [Acciones y skills](https://sevenstork.com/apps/stork/es/acciones) |
 | Atajos de teclado | [Atajos y búsqueda](https://sevenstork.com/apps/stork/es/atajos) |
+
+## Contacto
+
+Errores, ideas o preguntas — por donde te quede cómodo:
+
+- Web — [sevenstork.com](https://sevenstork.com)
+- Mail — [federico.fernandez@sevenstork.com](mailto:federico.fernandez@sevenstork.com)
+- LinkedIn — [linkedin.com/in/federico-sebastian-fernández-aguiar](https://www.linkedin.com/in/federico-sebastian-fern%C3%A1ndez-aguiar-982293134/)
+- [Reportar un error](https://github.com/FedericoSebastian/stork-releases/issues)
+
+## Términos
+
+Stork es gratis y se entrega "tal cual", sin garantía: el agente corre comandos y edita archivos en
+tu máquina, y vos sos responsable de revisar lo que aprobás. El texto completo está en
+[TERMS.md](TERMS.md).
 
 ## Si algo falla
 
