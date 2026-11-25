@@ -1,5 +1,74 @@
 # Stork
 
+**Several Claude Code agents working at once, without stepping on each other.**
+
+Stork is a desktop app for macOS. Each task runs in its own _workspace_: a copy of your repo (a git
+worktree) with its own branch, folder, ports and chats. Open five agents in parallel and the sidebar
+shows which one is working, which is waiting for you and which has answered.
+
+This repository only holds the downloads. The full documentation is at
+**[sevenstork.com/apps/stork](https://sevenstork.com/apps/stork)** (English and Spanish).
+
+_[Español abajo ↓](#espanol)_
+
+---
+
+## Download
+
+[**Latest version for Mac**](https://github.com/FedericoSebastian/stork-releases/releases/latest/download/Stork-universal.dmg)
+· macOS 11 or newer · Apple Silicon and Intel.
+
+Open the `.dmg` and drag Stork to Applications. It's signed and notarized by Apple, so there's no
+"unidentified developer" warning (the first launch still asks whether to open an app downloaded from
+the internet; confirm with **Open**).
+
+To update, download the new `.dmg` and drop it over the old one. Your projects, chats and accounts
+live separately in `~/.stork` and aren't touched. Older versions stay forever on the
+[releases page](https://github.com/FedericoSebastian/stork-releases/releases).
+
+## What you need
+
+- **git** and **claude** ([Claude Code](https://claude.com/claude-code)) installed. Stork checks for them at startup and tells you what's missing.
+- **gh** (GitHub CLI) is optional: without it there are no PRs, issues or CI, but everything else works.
+- A Claude account (subscription or API). A local model works too.
+
+## Getting started in 4 steps
+
+1. **Open Stork.** While you have no projects it walks you through it: it checks the tools, gets you
+   logged in to Claude and offers to create your first project.
+2. **Create a project** with one or more repos (a local folder, a GitHub repo or a new one). A
+   project can hold several repos, and each workspace makes a worktree of every one.
+3. **New workspace.** That's a task: its own branch, its own folder and its own 10 ports. Ask the
+   agent for something in the chat; on your first message the branch renames itself after what you asked.
+4. **Review and ship.** In the right-hand panel you read the diff, comment on lines, commit, create
+   the PR and follow CI without leaving the app.
+
+## What you can do
+
+| | Guide |
+| --- | --- |
+| Several agents at once, each on its own branch and folder | [Projects and workspaces](https://sevenstork.com/apps/stork/en/proyectos) |
+| Approve or reject what the agent wants to do, undo the last turn, use skills and commands | [The chat](https://sevenstork.com/apps/stork/en/chat) |
+| Diff with per-line comments, commits, PRs, CI and merge | [Review and publish changes](https://sevenstork.com/apps/stork/en/cambios) |
+| Run each workspace's app on its own ports, with its variables and scripts | [Variables, scripts and services](https://sevenstork.com/apps/stork/en/servicios) |
+| Private variables kept in the keychain that Claude never receives | [Variables, scripts and services](https://sevenstork.com/apps/stork/en/servicios#environment-variables) |
+| Several Claude and GitHub accounts, with their limits and usage in view | [Profiles and accounts](https://sevenstork.com/apps/stork/en/cuentas) |
+| Alerts when an agent needs you, in the Dock and the menu bar | [Notifications, limits and usage](https://sevenstork.com/apps/stork/en/avisos) |
+| Buttons with your own prompts for repeated tasks | [Actions and skills](https://sevenstork.com/apps/stork/en/acciones) |
+| Keyboard shortcuts | [Shortcuts and search](https://sevenstork.com/apps/stork/en/atajos) |
+
+## If something goes wrong
+
+There's a [Common problems](https://sevenstork.com/apps/stork/en/problemas) page: what to do when
+Stork can't find `claude`, when a branch is busy in another folder, when a port is taken or when an
+agent is left waiting.
+
+---
+
+<a id="espanol"></a>
+
+# Stork (Español)
+
 **Varios agentes de Claude Code trabajando a la vez, sin pisarse.**
 
 Stork es una app de escritorio para macOS. Cada tarea corre en su propio _workspace_: una copia de tu
@@ -8,10 +77,6 @@ paralelo y desde la barra lateral ves cuál trabaja, cuál te espera y cuál ya 
 
 Este repositorio es sólo para las descargas. La documentación completa está en
 **[sevenstork.com/apps/stork](https://sevenstork.com/apps/stork)** (español e inglés).
-
-_[English below ↓](#english)_
-
----
 
 ## Descargar
 
@@ -63,68 +128,3 @@ la [lista de releases](https://github.com/FedericoSebastian/stork-releases/relea
 Está la página de [Problemas comunes](https://sevenstork.com/apps/stork/es/problemas): qué hacer si
 Stork no encuentra `claude`, si una rama está ocupada por otra carpeta, si un puerto quedó tomado o
 si un agente se queda esperando.
-
----
-
-<a id="english"></a>
-
-# Stork (English)
-
-**Several Claude Code agents working at once, without stepping on each other.**
-
-Stork is a desktop app for macOS. Each task runs in its own _workspace_: a copy of your repo (a git
-worktree) with its own branch, folder, ports and chats. Open five agents in parallel and the sidebar
-shows which one is working, which is waiting for you and which has answered.
-
-This repository only holds the downloads. The full documentation is at
-**[sevenstork.com/apps/stork](https://sevenstork.com/apps/stork)** (English and Spanish).
-
-## Download
-
-[**Latest version for Mac**](https://github.com/FedericoSebastian/stork-releases/releases/latest/download/Stork-universal.dmg)
-· macOS 11 or newer · Apple Silicon and Intel.
-
-Open the `.dmg` and drag Stork to Applications. It's signed and notarized by Apple, so there's no
-"unidentified developer" warning (the first launch still asks whether to open an app downloaded from
-the internet; confirm with **Open**).
-
-To update, download the new `.dmg` and drop it over the old one. Your projects, chats and accounts
-live separately in `~/.stork` and aren't touched. Older versions stay forever on the
-[releases page](https://github.com/FedericoSebastian/stork-releases/releases).
-
-## What you need
-
-- **git** and **claude** ([Claude Code](https://claude.com/claude-code)) installed. Stork checks for them at startup and tells you what's missing.
-- **gh** (GitHub CLI) is optional: without it there are no PRs, issues or CI, but everything else works.
-- A Claude account (subscription or API). A local model works too.
-
-## Getting started in 4 steps
-
-1. **Open Stork.** While you have no projects it walks you through it: it checks the tools, gets you
-   logged in to Claude and offers to create your first project.
-2. **Create a project** with one or more repos (a local folder, a GitHub repo or a new one). A
-   project can hold several repos, and each workspace makes a worktree of every one.
-3. **New workspace.** That's a task: its own branch, its own folder and its own 10 ports. Ask the
-   agent for something in the chat; on your first message the branch renames itself after what you asked.
-4. **Review and ship.** In the right-hand panel you read the diff, comment on lines, commit, create
-   the PR and follow CI without leaving the app.
-
-## What you can do
-
-| | Guide |
-| --- | --- |
-| Several agents at once, each on its own branch and folder | [Projects and workspaces](https://sevenstork.com/apps/stork/en/proyectos) |
-| Approve or reject what the agent wants to do, undo the last turn, use skills and commands | [The chat](https://sevenstork.com/apps/stork/en/chat) |
-| Diff with per-line comments, commits, PRs, CI and merge | [Review and publish changes](https://sevenstork.com/apps/stork/en/cambios) |
-| Run each workspace's app on its own ports, with its variables and scripts | [Variables, scripts and services](https://sevenstork.com/apps/stork/en/servicios) |
-| Private variables kept in the keychain that Claude never receives | [Variables, scripts and services](https://sevenstork.com/apps/stork/en/servicios) |
-| Several Claude and GitHub accounts, with their limits and usage in view | [Profiles and accounts](https://sevenstork.com/apps/stork/en/cuentas) |
-| Alerts when an agent needs you, in the Dock and the menu bar | [Notifications, limits and usage](https://sevenstork.com/apps/stork/en/avisos) |
-| Buttons with your own prompts for repeated tasks | [Actions and skills](https://sevenstork.com/apps/stork/en/acciones) |
-| Keyboard shortcuts | [Shortcuts and search](https://sevenstork.com/apps/stork/en/atajos) |
-
-## If something goes wrong
-
-There's a [Common problems](https://sevenstork.com/apps/stork/en/problemas) page: what to do when
-Stork can't find `claude`, when a branch is busy in another folder, when a port is taken or when an
-agent is left waiting.
