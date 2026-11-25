@@ -57,6 +57,13 @@ live separately in `~/.stork` and aren't touched. Older versions stay forever on
 | Buttons with your own prompts for repeated tasks | [Actions and skills](https://sevenstork.com/apps/stork/en/acciones) |
 | Keyboard shortcuts | [Shortcuts and search](https://sevenstork.com/apps/stork/en/atajos) |
 
+## Contact
+
+Stork is made by [SevenStork](https://sevenstork.com) (Federico Fernández, Uruguay).
+Found a bug, or want to ask something? Write to
+[federico.fernandez@sevenstork.com](mailto:federico.fernandez@sevenstork.com) or through the form at
+[sevenstork.com](https://sevenstork.com/#contacto).
+
 ## If something goes wrong
 
 There's a [Common problems](https://sevenstork.com/apps/stork/en/problemas) page: what to do when
@@ -122,6 +129,13 @@ la [lista de releases](https://github.com/FedericoSebastian/stork-releases/relea
 | Avisos cuando un agente te necesita, en el Dock y en la barra de menú | [Avisos, límites y uso](https://sevenstork.com/apps/stork/es/avisos) |
 | Botones con tus propios prompts para tareas repetidas | [Acciones y skills](https://sevenstork.com/apps/stork/es/acciones) |
 | Atajos de teclado | [Atajos y búsqueda](https://sevenstork.com/apps/stork/es/atajos) |
+
+## Contacto
+
+Stork la hace [SevenStork](https://sevenstork.com) (Federico Fernández, Uruguay).
+¿Encontraste un error o querés preguntar algo? Escribime a
+[federico.fernandez@sevenstork.com](mailto:federico.fernandez@sevenstork.com) o por el formulario de
+[sevenstork.com](https://sevenstork.com/#contacto).
 
 ## Si algo falla
 
